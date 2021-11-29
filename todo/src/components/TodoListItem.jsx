@@ -15,7 +15,7 @@ function TodoListItem(props) {
       <div className="row">
         <div className="col-8">{item}</div>
         <div className="col">
-          <Button type="danger" onClick={onDelete} />
+          <Button type="danger" label="Delete" onClick={onDelete} />
         </div>
       </div>
     </li>

@@ -27,7 +27,7 @@ function TodoInput(props) {
         />
       </div>
       <div className="col-4">
-        <Button type="info" onClick={clickHandler} />
+        <Button type="info" onClick={clickHandler} label="Create" />
       </div>
     </div>
   );
