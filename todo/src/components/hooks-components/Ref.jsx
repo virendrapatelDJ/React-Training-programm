@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 
  function Ref() {   
 
-    const inputRef = useRef("Hello")
+    const inputRef = useRef()
     const [inputValue , setValue] = useState()
 
     useEffect(()=>{

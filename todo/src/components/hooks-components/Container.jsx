@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { Callback } from './Callback';
+import {  ContextContainer } from './Context';
 import { Fetch } from './Fetch';
 import { Random } from './Random';
 import { Ref } from './Ref';
@@ -20,8 +22,10 @@ function Container() {
 
   return (
     <div>
-      <Ref/>
-      <Fetch />
+      <ContextContainer/>
+      {/* <Callback/> */}
+      {/* <Ref/> */}
+      {/* <Fetch /> */}
       <main>
         <h1>Name : {students.name}</h1>
         <h1>Age : {students.age}</h1>
