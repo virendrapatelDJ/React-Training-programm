@@ -4,7 +4,7 @@ import DocumentTitle from 'react-document-title';
 export default function Dashboard() {
   return (
     <DocumentTitle title="DashBoard">
-      <Fragment>
+      <>
         <h1>DashBoard</h1>
         <ul>
           <li>
@@ -19,7 +19,7 @@ export default function Dashboard() {
           </li>
         </ul>
         <Outlet />
-      </Fragment>
+      </>
     </DocumentTitle>
   );
 }
